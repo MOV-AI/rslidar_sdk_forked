@@ -13,6 +13,7 @@ jobs:
       deploy: true
       ros_distro: '["noetic"]'
       run_catkin_tests: true
+      install_test: true
     secrets:
       auto_commit_user: ${{ secrets.RAISE_BOT_COMMIT_USER }}
       auto_commit_mail: ${{ secrets.RAISE_BOT_COMMIT_MAIL }}
