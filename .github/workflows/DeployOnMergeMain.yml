@@ -8,7 +8,7 @@ on:
 concurrency: ${{ github.repository }}
 jobs:
   Deploy:
-    uses: MOV-AI/.github/.github/workflows/ros-workflow.yml@v2.3
+    uses: MOV-AI/.github/.github/workflows/ros-workflow.yml@fix/git_pull_failing_bad_submodules
     with:
       deploy: true
       ros_distro: '["noetic"]'
